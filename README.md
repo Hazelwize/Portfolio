@@ -10,7 +10,6 @@ This is my portfolio site. It is a collection of projects that I have done or am
 For my portfolio, I wanted to keep everything simple and let my projects be the main focus. I do freelance work in my area, so I wanted to keep it approachable for people that are less tech savvy. I added just the smallest amount of javascript for the smaller viewport menu toggle. I feel that I captured the vibe that I was going for which is professional and approachable.
 
 ## Optimizations
-*(optional)*
 
 I would love to add some cool visual effects to this site, but I'm afraid that it would be intimidating for some potential clients. I have to keep telling myself that simple is better in this case.
 ## Lessons Learned:
