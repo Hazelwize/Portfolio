@@ -20,7 +20,7 @@ I would love to add some cool visual effects to this site, but I'm afraid that i
 I learned the most about design choices with this website. I made sure to use a comfortable color pallete that wasn't too loud or obnoxious. The rounded edges gives it a more homey vibe rather than cutting edge and the lighter blues accent interactive points on the page. 
 ## Examples:
 
-Take a look at these couple examples that I have in my own portfolio:
+Take a look at these examples that I have in my own portfolio:
 
 **Deck And Post:** https://github.com/Hazelwize/DeckAndPostWebsite
 
