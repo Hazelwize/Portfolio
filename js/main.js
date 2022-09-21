@@ -16,4 +16,3 @@ document.querySelectorAll('.navLink').forEach(n => n.addEventListener('click', (
 
 
 
-  
