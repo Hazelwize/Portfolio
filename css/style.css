@@ -301,6 +301,10 @@ svg{
   background: #2D3142;
   color: #B0D7FF;
 }
+.btn:hover{
+  background: #2D3142;
+  color: #B0D7FF;
+}
 legend{
   width: 100%;
   text-align: center;
@@ -314,6 +318,10 @@ input, textarea{
   border-radius: 10px;
   margin: 10px 0;
   padding: 10px;
+}
+
+.social:hover{
+  transform: scale(1.1);
 }
 
 /******************************************
