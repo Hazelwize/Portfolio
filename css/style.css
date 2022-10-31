@@ -358,6 +358,9 @@ input, textarea{
   h3{
     font-size: 5rem;
   }
+  ul{
+    width: 65%;
+  }
 }
 @media screen and (max-width: 1140px){
   .block-2{
