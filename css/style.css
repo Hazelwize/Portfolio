@@ -150,14 +150,6 @@ ul{
   font-size: 2rem;
 }
 
-
-
-
-
-
-
-
-
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -174,8 +166,6 @@ ul{
 .grid-1{
   justify-content: space-between;
   padding: 50px 200px;
- 
-  
   /* border-radius: 25px; */
   border-bottom: 2px solid #ADACB5;
 }
