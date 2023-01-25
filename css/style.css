@@ -170,7 +170,7 @@ ul{
   border-bottom: 2px solid #ADACB5;
 }
 .backGrid-1{
-  background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url(../assets/pexels-misael-garcia-1707820.avif) 0 0  no-repeat;
+  background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url(../assets/pexels-misael-garcia-1707820.png) 0 0  no-repeat;
   background-size: cover;
 }
 .grid-2{
@@ -230,7 +230,7 @@ svg{
   position: relative;
   right: 130px;
   top: 100px;
-  background: url(../assets/Headshot.avif) 50% 10% no-repeat;
+  background: url(../assets/Headshot.png) 50% 10% no-repeat;
   background-size: 100%;
   height:400px;
   width: 400px;
