@@ -10,13 +10,13 @@ function App() {
   const [color, setColor] = useState({})
 
   useEffect(() => {
-
+    if(colorValue === 1)return
     setColor({
-      text: `hsl(${(colorValue + 120 > 360 ? colorValue - 240: colorValue + 120)}, 50%, 50%)`,
-      border: `hsl(${(colorValue + 120 > 360 ? colorValue - 240: colorValue + 120)}, 50%, 50%)`,
-      section: `hsl(${(colorValue)}, 50%, 50%)`,
-      background: `hsl(${(colorValue + 240 > 360 ? colorValue - 120: colorValue + 240)}, 50%, 50%)`,
-      accent: `hsl(${colorValue}, 60%, 16%)`,
+      text: `hsl(${(colorValue + 120 > 360 ? colorValue - 240: colorValue + 120)}, 35%, 50%)`,
+      border: `hsl(${(colorValue + 120 > 360 ? colorValue - 240: colorValue + 120)}, 35%, 50%)`,
+      section: `hsl(${(colorValue)}, 35%, 50%)`,
+      background: `hsl(${(colorValue + 240 > 360 ? colorValue - 120: colorValue + 240)}, 35%, 50%)`,
+      accent: `hsl(${colorValue}, 35%, 16%)`,
     })
   },[colorValue])
 

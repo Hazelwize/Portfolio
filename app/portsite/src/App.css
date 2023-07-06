@@ -173,15 +173,19 @@ ul{
   border-bottom: 2px solid #ADACB5;
 }
 .slideWrapper{
+  color:rgb(210, 206, 189);
   display: flex;
   justify-content: center;
-  border: 10px solid black;
+  border: 10px solid #D8D5BD;
   border-bottom: 0px;
+  background-color:#2D3142;
 
 }
 .slideContainer{
+  color:rgb(210, 206, 189);
   width: 75%;
   text-align: center;
+  
 }
 .backGrid-1{
   background: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.4)), url(./assets/pexels-misael-garcia-1707820.png) 0 0  no-repeat;
@@ -222,6 +226,9 @@ h2{
 h3,legend{
   color: #2D3142;
   text-shadow: 3px 3px 3px rgba(0,0,0,.4);
+}
+.sliderTitle{
+  color:rgb(210, 206, 189);
 }
 .socialLinks{
   padding-top: 20px;
