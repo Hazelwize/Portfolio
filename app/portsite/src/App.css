@@ -212,7 +212,11 @@ ul{
   background: #2D3142;
   border: 10px solid #D8D5BD;
 }
+.sliderLabel{
+  font-size: 30px;
+  font-weight: 700;
 
+}
 
 h1,h2,h3,legend{
   color: #D8D5DB;
