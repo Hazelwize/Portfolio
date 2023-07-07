@@ -2,6 +2,7 @@ import './App.css';
 import Main from './components/Main';
 import Slider from './components/Slider'
 import Details from './components/Details';
+import Projects from './components/Projects';
 import {useState, useEffect} from 'react'
 
 function App() {  
@@ -13,13 +14,13 @@ function App() {
   const [color, setColor] = useState({})
   
   useEffect(() => {
-    if(colorValue === 1)return
+    if(colorValue < 2)return
     setColor({
-        text: `hsl(${(colorValue + 120 > 360 ? colorValue - 240: colorValue + 120)}, 35%, 50%)`,
-        border: `hsl(${(colorValue + 120 > 360 ? colorValue - 240: colorValue + 120)}, 35%, 50%)`,
+        text: `hsl(${(colorValue + 120 > 360 ? colorValue - 239: colorValue + 120)}, 35%, 50%)`,
+        border: `hsl(${(colorValue + 120 > 360 ? colorValue - 239: colorValue + 120)}, 35%, 50%)`,
         section: `hsl(${(colorValue)}, 35%, 50%)`,
-        background: `hsl(${(colorValue + 240 > 360 ? colorValue - 120: colorValue + 240)}, 35%, 50%)`,
-        accent: `hsl(${(colorValue + 30 > 360 ? colorValue - 330: colorValue + 30)}, 35%, 50%)`,
+        background: `hsl(${(colorValue + 240 > 360 ? colorValue - 119: colorValue + 240)}, 35%, 50%)`,
+        accent: `hsl(${(colorValue + 30 > 360 ? colorValue - 329: colorValue + 30)}, 35%, 50%)`,
     })
   },[colorValue])
 
@@ -53,6 +54,7 @@ function App() {
         />}
         <Main color={color} border={borderRadius} showSlider={showSlider} setShowSlider={setShowSlider}/>
         <Details color={color} border={borderRadius}/>
+        <Projects color={color} border={borderRadius}/>
       </div>
     </div>
   );
