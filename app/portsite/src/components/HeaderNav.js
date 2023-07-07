@@ -15,7 +15,7 @@ const HeaderNav = ({color, showSlider, setShowSlider}) => {
 					<li className="navItem"><a style={{color: color.text}} className="navLink" href="#about">About Me</a></li>
 					<li className="navItem"><a style={{color: color.text}} className="navLink" href="#portfolio">Portfolio</a></li>
 					<li className="navItem"><a style={{color: color.text}} className="navLink" href="#contact">Contact</a></li>
-                    <li className="navItem navLink" style={{color: color.text}} onClick={() => toggleOptions()}>Customize</li>
+                    <li className="navItem navLink" style={{fontWeight: 700, color: color.text}} onClick={() => toggleOptions()}>Change Me!</li>
 				</ul>
 				<div onClick={() => setActive(!active)} className={active ? "active hamburger" : "hamburger"}>
 					<span className="bar" style={{backgroundColor: color.text}}></span>
