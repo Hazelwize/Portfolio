@@ -3,7 +3,8 @@ This is my portfolio site. It is a collection of projects that I have done or am
 
 **Link to project:** https://www.fullstackjackson.com/
 
-![port-main](https://user-images.githubusercontent.com/97214996/179374382-f945e689-6e55-496b-9e03-b1f01148d1a1.png)
+![port-main](![image](https://github.com/user-attachments/assets/83bb3d65-e3fc-4cdc-9258-05ebcbfe3800)
+)
 
 
 ## How It's Made:
